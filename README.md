@@ -291,10 +291,10 @@ kai prijungti keli irankiai vienu metu. Kadrai is ne-F1 testeriu pazymimi
 
 ---
 
-## In-vehicle workflow (Pi sunkvezimyje)
+## In-vehicle workflow (sunkvezimyje)
 
-Pi maitinamas is USB power banko, jungtas i sunkvezimio OBD per CAN HAT,
-o tu sedi kabinoje su Windows lapotpu prijungtu prie Pi WiFi hotspot.
+Pi maitinamas is USB power banko, jungtas i sunkvezimio OBD CanH ir CanL per CAN HAT,
+su Windows lapotpu prijungtu prie Pi WiFi hotspot, per ssh prisijungi prie rasbery.
 
 ```bash
 # Pi pusej (vienkartinis setup)
@@ -307,9 +307,6 @@ cd ~/praktika
 python scripts/can_logger.py --duration 300
 python scripts/full_analysis.py data/logs/can_log_*.csv --vehicle mp4
 ```
-
-Detaliai apie in-vehicle setup, screen/headless darba, ir Pi-as-hotspot:
-`config/can_hat_setup.md` arba klausk `claude-code` projekto sesijoje.
 
 ---
 
