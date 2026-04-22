@@ -203,8 +203,7 @@ for frame in frames:
 ```
 
 Pilnai palaiko Single Frame, First Frame + Consecutive Frame multi-frame
-surinkimo seka, ir Flow Control kadrus (ignoruojami). Anksciau projekte buvo
-**5 skirtingos kopijos** sito kodo, trys ju buvo netvirtos.
+surinkimo seka, ir Flow Control kadrus (ignoruojami).
 
 Papildomi vieso API:
 
