@@ -1,0 +1,2 @@
+python-can>=4.0       # gyvas CAN srauto registravimas (can_logger.py, bmw_logger.py)
+matplotlib>=3.5       # grafikai (can_analyzer.py --plot, full_analysis.py)
