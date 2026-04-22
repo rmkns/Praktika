@@ -89,8 +89,6 @@ praktika/
 
 ## Greitas paleidimas
 
-### Kartu paruosti (vienas kartas)
-
 ```bash
 # Idiegti priklausomybes
 pip install -r requirements.txt
